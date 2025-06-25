@@ -64,6 +64,12 @@ input::placeholder{
     color: #cbbba7;
 }
 
+input::file-selector-button{
+    background-color: #ccd595;
+    color: #331f19;
+    border-radius: 5px;
+}
+
 select{
     cursor: pointer;
     background-color: #ccd595;
@@ -76,7 +82,7 @@ select{
 
 img {
     width: 10rem;
-    border-radius: 5px;
+    border-radius: 500px;
     outline: none;
 }
 
