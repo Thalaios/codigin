@@ -38,5 +38,129 @@ h2{
 
 input [type="radio"]{
     accent-color: #ccd595;
+    width: 100%;
+}
 
+input[type ="text"], input[type ="password"], input[type ="email"]{
+    width: 45%;
+    padding: 0.6rem;
+    border: 2px solid #ccd595;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+input[type ="date"]{
+    width: 12%;
+    padding: 0.6rem;
+    border: 2px solid #ccd595;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+} 
+
+input::placeholder{ 
+    color: #cbbba7;
+}
+
+select{
+    cursor: pointer;
+    background-color: #ccd595;
+    color: #331f19;
+    border-radius: 5px;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+img {
+    width: 10rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #ccd595;
+    color: #331f19;
+    padding: 1rem;
+}
+
+td {
+    color: #331f19;
+    padding: 1rem;
+    text-align: left;
+}
+
+tfoot td{
+    background-color: #331f19;
+    color: #F4F0EA;
+    text-align: center;
+}
+
+details {
+    background-color: #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary{
+    color: #331f19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+ol li{
+    padding: 0.2rem;
+}
+
+fieldset{
+    border: 2px solid #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331f19;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #ccd595;
+}
+
+button{
+    background-color: #ccd595;
+    border: none;
+    padding: 0.8rem;
+    color: #331f19;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #331f19;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer{
+    color: #F4F0EA;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ccd595;
 }
