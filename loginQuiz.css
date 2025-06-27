@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 200%);
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
     color: #331f19; 
     font-family: "Cabin", sans-serif;
 }
@@ -15,7 +15,7 @@ body {
     font-size: 1rem;
     padding: 2rem;
     border-radius: 40px;
-    margin: 5.9rem auto; /*Deixou o modal fixo no no meio, não permitindo bordas no footer*/
+    margin: 5.4rem auto; /*Deixou o modal fixo no no meio, não permitindo bordas no footer*/
     background: white;
 }
 
@@ -43,7 +43,6 @@ input[type="password"] {
     outline: none;
     border-radius: 10px;
     background-color: transparent;
-    text-align: left;
 }
 
 section{
@@ -54,28 +53,47 @@ section{
 
 .linha-dupla{
     display: flex;
-    gap: 90px;
+    gap: 5;
     margin-bottom: 50px;
+    text-align: left;
+    font-size: 15px;
 }
 
-
+/*
 .esqueciminhasenha a{
-    color: blue;
-    padding: 0.5rem;
+    color: rgba(19, 19, 56, 1);
+
 }
+
+.esqueciminhasenha a:hover{
+    color: blue;
+} */
 
 .cadastro a{
+ color:rgba(19, 19, 56, 1);
+ padding: 1rem;
+ margin-left: 7rem;
+}
+
+.cadastro a:hover{
     color: blue;
 }
 
 /*Botão de login*/
-.botoes a{
+.login a{
     text-decoration: none;
-    margin-left: 260px;
+    margin-left: 200px;
     display: flex;
-    color: #F4F0EA;
-    width: 70px;
-    border-radius: 10px;
-    padding: 0.9rem;
+    color: rgba(19, 19, 56, 1);
+    width: 20%;
+    border-radius: 20px;
+    padding: 1rem;
+    background: transparent;
+    border: 2px rgba(19, 19, 56, 1) solid;
+    margin-bottom: 10px;
+}
+
+.login a:hover{
+    color: aliceblue;
     background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 200%);
 }

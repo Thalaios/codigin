@@ -74,21 +74,21 @@ section{
 }
 
 button{
+    text-decoration: none;
     padding: 1rem;
     width: 75%;
-    color: #F4F0EA;
-    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 200%);
+    border: 2px rgba(19, 19, 56, 1) solid;
+    color: rgba(19, 19, 56, 1);
     margin-top: 5px;
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 20px;
     cursor: pointer;
-    border: none;
 }
 
-a{
+button:hover, a:hover{
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 200%);
     color: #F4F0EA;
-    text-decoration: none;
 }
 
 .linha-dupla2 {
