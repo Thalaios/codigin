@@ -1,0 +1,211 @@
+@import url('https://fonts.ggleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e2e0df;
+    color: #331f19; 
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header {
+    width: 100%;
+    color: #F4F0EA;
+    padding: 4rem;
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    text-align: center;
+}
+
+.cabecalho{
+    /* float: right; */
+    position: absolute;
+    right: 29px;
+    top: 99px;
+}
+
+.cabecalho .logo{
+    float: left;
+}
+
+.cabecalho .sair{
+    /* float: right; */
+    position: absolute;
+    right: 29px;
+    top: 99px;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+h2{
+    color: #331f19;
+}
+
+abbr{
+    cursor: help;
+}
+
+input [type="radio"]{
+    accent-color: #ccd595;
+    width: 100%;
+}
+
+input[type ="text"], input[type ="password"], input[type ="email"]{
+    width: 45%;
+    padding: 0.6rem;
+    border: 2px solid #331f19;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+input[type ="date"]{
+    width: 12%;
+    padding: 0.6rem;
+    border: 2px solid #331f19;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    text-align: center;
+} 
+
+input::placeholder{ 
+    color: #F4F0EA;
+}
+
+/*input do botão de upload de arquivo*/
+input{
+    font-size: 15px;
+    padding: 0.5rem;
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+    color: #F4F0EA;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+}
+
+select{
+    font-size: 15px;
+    padding: 0.5rem;
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+    color: #F4F0EA;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+
+}
+
+img {
+    width: 10rem;
+    border-radius: 30%;
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    color: #F4F0EA;
+    padding: 1rem;
+}
+
+td {
+    color: #331f19;
+    padding: 1rem;
+    text-align: left;
+}
+
+tfoot td{
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    color: #F4F0EA;
+    text-align: center;
+}
+
+details {
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+summary{
+    color: #F4F0EA;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol{
+    margin-left: 1.5rem;
+}
+
+ol li{
+    padding: 0.2rem;
+    color: #F4F0EA;
+}
+
+fieldset{
+    border: 2px solid #331f19;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331f19;
+    padding: 0 0.5rem;
+}
+
+textarea{
+    background-color: transparent;
+    outline: none;
+    border-radius: 10px;
+    border: 2px solid #331f19;
+    color: #331f19;
+}
+
+button{
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    border: none;
+    padding: 0.8rem;
+    color: #F4F0EA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer{
+    background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 100%);
+    padding: 1rem;
+    text-align: center;
+}
+
+.paragrafo-footer{
+    color: #F4F0EA;
+}
+
+footer p{
+    text-decoration: none;
+    color: #e2e0df;
+}
+
+footer a{
+    text-decoration: none;
+    color: #ccd595;
+}
