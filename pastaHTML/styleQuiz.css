@@ -1,4 +1,4 @@
-@import url('https://fonts.ggleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+@import url(https://fonts.ggleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap);
 
 * { 
     margin: 0;
@@ -6,27 +6,33 @@
     box-sizing: border-box;
 }
 
+html, body {
+    height: 100%;
+    font-family: "Cabin", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
 body {
     background-color: #e2e0df;
     color: #331f19; 
     font-family: "Cabin", sans-serif;
-    font-weight: 400;
     padding-top: 120px;
     width: 100%;
 }
 
 header {
+    display: flex;
+    align-items: center;
     position: fixed;
+    flex-direction: row;
+    height: 120px;
+    z-index: 1000;
     top: 0;
     left: 0;
     right: 0;
     padding: 1rem 2rem;
     background: linear-gradient(124deg, rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 200%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 120px;
-    z-index: 1000;
 }
 
 .cabecalho {
@@ -35,27 +41,29 @@ header {
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    max-width: 1200px;
 }
 
 .cabecalho img {
-    margin-right: 30px;
-    height: 50px;
-    width: auto;
-    border: none;
-    border-radius: 10px;
+    top: 10px;
+    border-radius: 30px;
+    width: 150px;
+    height: auto;
+    padding: 0.5rem;
+    z-index: 1001;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .titulo {
-    margin-right: 15rem;
-    width: 10%0;
+    width: 100%;
     color: #F4F0EA;
     font-size: 1rem;
     text-align: center;
+    justify-content: center;
 }
 
 .sair a {
-    padding: 0.5rem 1rem;
+    padding: 1rem 2rem;
     border-radius: 25px;
     background-color: #F4F0EA;
     color: #331f19;
@@ -66,13 +74,15 @@ header {
 .sair a:hover {
     background: rgba(19, 19, 56, 1);
     color: #e2e0df;
-
 }
 
 main {
+    width: 100%;
     padding: 2rem;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
     gap: 2rem;
 }
 
@@ -96,7 +106,7 @@ input [type="radio"]{
 
 input[type ="text"], input[type ="password"], input[type ="email"]{
     margin-bottom: 2px;
-    width: 45%;
+    width: 100%;
     padding: 0.6rem;
     border: 2px solid rgba(19, 19, 56, 1);
     outline: none;
@@ -106,7 +116,7 @@ input[type ="text"], input[type ="password"], input[type ="email"]{
 }
 
 input[type ="date"]{
-    width: 12%;
+    width: 15rem;
     padding: 0.6rem;
     border: 2px solid #331f19;
     outline: none;
@@ -152,7 +162,6 @@ img {
 
 table {
     width: 100%;
-    border-collapse: collapse;
 }
 
 th {
@@ -206,6 +215,7 @@ legend {
 }
 
 textarea{
+    width: 100%;
     background-color: transparent;
     outline: none;
     border-radius: 10px;
@@ -225,19 +235,11 @@ button{
 footer{
     background: linear-gradient(124deg,rgba(2, 0, 36, 1) 0%, rgba(19, 19, 56, 1) 52%, rgba(0, 212, 255, 1) 200%);
     padding: 1rem;
+    font-size: 20px;
     text-align: center;
+    height: 100%;
 }
 
 .paragrafo-footer{
     color: #F4F0EA;
-}
-
-footer p{
-    text-decoration: none;
-    color: #e2e0df;
-}
-
-footer a{
-    text-decoration: none;
-    color: #ccd595;
 }
